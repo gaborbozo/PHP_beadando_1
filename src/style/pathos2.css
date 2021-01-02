@@ -1,0 +1,79 @@
+
+body {
+    background: url("../res/img/bg/bgpathos2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.topnav {
+    background-color: rgb(150, 150, 250);
+}
+
+.topnav a {
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: rgb(125, 125, 250);
+    color: rgb(150, 150, 250);
+}
+
+.topnav a.active {
+    background-color: rgb(100, 100, 200);
+    color: rgb(50, 50, 100);;
+}
+
+.maintext{
+    color: rgb(80,80,40);
+    background-color: rgba(15, 15, 30, 0.8);
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    max-height: 600px;
+    vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.scrolltext {
+  color: maroon;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(50, 25, 25);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activedot {
+  background-color: maroon;
+}
+
+.fade {
+  animation-name: fade;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .5} 
+    to {opacity: 1}
+}
